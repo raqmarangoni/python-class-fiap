@@ -8,11 +8,10 @@
 pontos = int (input("informe a quantidade de pontos do cliente: "))
 if pontos > 1000:
     print("O cliente recebe 3gb adicionais")
-else:
-    if pontos > 500:
-        print("O cliente recebe 1,5gb adicionais")
-    else:
-        if pontos > 200:
-            print("O cliente recebe 500mg adicionais")
-        else:
-            print("O cliente não recebe dados adicionais")
+elif pontos > 500:
+    print("O cliente recebe 1,5gb adicionais")
+elif pontos > 200:
+    print("O cliente recebe 500mg adicionais")
+else: print("O cliente não recebe dados adicionais")
+
+# Utilizando o bloco "elif" o código passou a ter menos linhas e a ficar mais legível.
