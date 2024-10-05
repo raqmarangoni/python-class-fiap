@@ -29,7 +29,6 @@ soma = valor1 + valor2
 print("A soma é {}".format(soma)) # A soma é 44
 print(f"A soma é {soma}") # esta é uma outra forma de escrever: A soma é 44
 
-
 print("Programa somador!")
 valor1 = float(input("Por favor, informe o primeiro valor: ")) # 20
 valor2 = float(input("Por favor, informe o segundo valor: ")) # 24
